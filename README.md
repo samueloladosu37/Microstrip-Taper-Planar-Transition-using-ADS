@@ -65,6 +65,6 @@ Using ADS we proofed the microwave theory- S-parameters of the combined structur
    - Optimization of Planar to Dielectric rectangular waveguide in G-band
    - Return Loss better than 20 dB
    - Insterloss Loss between 1.35 to 2.1
-![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Comparison.png)
+![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Planar%20to%20Dielectric%20Filled%20Rectangular%20Waveguide.png)
 
  
