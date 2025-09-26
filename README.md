@@ -41,9 +41,8 @@ S_calc≡ S(_f_(T_1​×T_2​))
 
 1. **Component Setup in ADS**  
    - Microstrip transmission line (MS)
-  ![S-Parameters](https://github.com/samueloladosu37/Wilkinson-Power-Divider-CST-Simulation/blob/main/Wilkinson%20PD.png)
-![Design](https://github.com/samueloladosu37/Wilkinson-Power-Divider-CST-Simulation/blob/main/PD%20Design.png)
-  
+  ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/MIcrostrip%20Simulation.png)
+
    - Taper transitions (T₁, T₂)  
 
 2. **Simulation Cases**  
