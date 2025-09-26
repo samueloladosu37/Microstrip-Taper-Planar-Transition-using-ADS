@@ -14,7 +14,6 @@ followed by transformation into **S-parameters**.
 
 The results confirm the theoretical prediction that the **S-parameters of the combined structure** are identical to the **S-parameters derived from the cascaded T-matrices**.  
 
----
 
 ## 🧾 Theory  
 
@@ -53,7 +52,7 @@ S_calc≡ S(_f_(T_1​×T_2​))
    - Microstrip S_parameter to ABCD matrix (T_microstrip)  
    - Taper S_parameter to ABCD matrix (T_taper)
    - Cascading: compute T_total = T_microstrip x T_taper
- ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Transforming%20to%20ABCD%20parmaeter.pngg)
+ ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Transforming%20to%20ABCD%20parmaeter.png)
 
   E. Transform T_total into S_total (Scalc)
      Compare Scalc with S_cascaded
