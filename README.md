@@ -49,18 +49,22 @@ S_calc≡ S(_f_(T_1​×T_2​))
    C. Direct combined simulation of MS + Taper (S_cascaded)
     ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/S_combined(Microstrip-Taper%20Transiiton).png)
    
-   - Independent extraction of T₁ and T₂  
-   - Cascading: compute \(T_{total} = T_1 \times T_2\)  
-   - Transform \(T_{total}\) into \(S_{total}\)  
+  D. Now let us transform the 
+   - Microstrip S_parameter to ABCD matrix (T_microstrip)  
+   - Taper S_parameter to ABCD matrix (T_taper)
+   - Cascading: compute T_total = T_microstrip x T_taper
+ ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/S_combined(Microstrip-Taper%20Transiiton).png)
 
-4. **Verification**  
-   - Compare ADS results of direct vs. cascaded cases  
-   - Confirm that \(S_{combined} \equiv S_{total}\)  
+  E. Transform T_total into S_total (Scalc)
+     Compare Scalc with S_cascaded
+ ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/S_combined(Microstrip-Taper%20Transiiton).png)
 
----
+Using ADS we proofed the microwave theory- S-parameters of the combined structure is the same to the S-parameters derived from the cascaded T-matrices.  
 
-## 📊 Results  
+2. **Bonus**  
+   - Optimization of Planar to Dielectric rectangular waveguide in G-band
+   - Return Loss better than 20 dB
+   - Insterloss Loss between 1.35 to 2.1
+![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using ADS/blob/main/Planar%20to%20Dielectric%20Filled%20Rectangular%20Waveguide.png)
 
-- ✅ Strong agreement between theory and simulation  
-- ✅ Verified both **Return Loss (S₁₁)** and **Insertion Loss (S₂₁)**  
-- ✅ Demonstrates the mathematical soundness of the transfer-to-scattering parameter conversion  
+ 
