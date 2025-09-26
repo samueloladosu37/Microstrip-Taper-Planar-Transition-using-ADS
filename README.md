@@ -39,29 +39,35 @@ S_calc≡ S(_f_(T_1​×T_2​))
 ## ⚙️ Simulation Workflow  
 
 1. **Component Setup in ADS and Simulation Cases**  
-   A Microstrip transmission line (MS) - S_parameters
+   A. Microstrip transmission line (MS) - S_parameters
+      -Return Loss better than 30 dB
+      -Insertion Loss betweem 0.095 to 0.145 dB in G-band
   ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/MIcrostrip%20Simulation.png)
 
    B. Taper transition -S_parameters
+      - Retrun Loss better than 20 dB
+      - Insertion loss between 1.2  to 1.9 dB
    ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
  
    C. Direct combined simulation of MS + Taper (S_cascaded)
     ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/S_combined(Microstrip-Taper%20Transiiton).png)
-   
-  D. Now let us transform the 
+      - Retrun Loss better than 20 dB
+      - Insertion loss between 1.2  to 2.1 dB
+        
+  D. Now let us transform the ( Sparameter to Tmatrix) using **stoabc** function in ADS
    - Microstrip S_parameter to ABCD matrix (T_microstrip)  
    - Taper S_parameter to ABCD matrix (T_taper)
    - Cascading: compute T_total = T_microstrip x T_taper
  ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Transforming%20to%20ABCD%20parmaeter.png)
 
-  E. Transform T_total into S_total (Scalc)
+  E. Transform T_total into S_total (Scalc) using **abcdtos** function in ADS
      Compare Scalc with S_cascaded
  ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Comparison.png)
 
 Using ADS we proofed the microwave theory- S-parameters of the combined structure is the same to the S-parameters derived from the cascaded T-matrices.  
 
 2. **Bonus**  
-   - Optimization of Planar to Dielectric rectangular waveguide in G-band
+   - Optimization of Planar to Dielectric Filled Rectangular Waveguide (DFWR) in G-band
    - Return Loss better than 20 dB
    - Insterloss Loss between 1.35 to 2.1
 ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Planar%20to%20Dielectric%20Filled%20Rectangular%20Waveguide.png)
