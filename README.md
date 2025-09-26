@@ -39,19 +39,21 @@ S_calc≡ S(_f_(T_1​×T_2​))
 
 ## ⚙️ Simulation Workflow  
 
-1. **Component Setup in ADS**  
-   - Microstrip transmission line (MS)
+1. **Component Setup in ADS and Simulation Cases**  
+   A Microstrip transmission line (MS) - S_parameters
   ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/MIcrostrip%20Simulation.png)
 
-   - Taper transitions (T₁, T₂)  
-
-2. **Simulation Cases**  
-   - Direct combined simulation of MS + Taper  
+   B. Taper transition -S_parameters
+   - ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
+ 
+   C. Direct combined simulation of MS + Taper
+    ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
+   
    - Independent extraction of T₁ and T₂  
    - Cascading: compute \(T_{total} = T_1 \times T_2\)  
    - Transform \(T_{total}\) into \(S_{total}\)  
 
-3. **Verification**  
+4. **Verification**  
    - Compare ADS results of direct vs. cascaded cases  
    - Confirm that \(S_{combined} \equiv S_{total}\)  
 
