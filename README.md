@@ -34,14 +34,15 @@ S_{total} = _f_(T_{total})
 Thus, the theory guarantees that a direct S-parameter simulation of the combined network and the S-parameters derived via (T_1 x T_2) must be equivalent.  
 
 This repository provides explicit ADS simulations as a proof of this equivalence. 
-S_combined​≡ S(_f_(T_1​×T_2​))
+S_calc≡ S(_f_(T_1​×T_2​))
 
 
 ## ⚙️ Simulation Workflow  
 
 1. **Component Setup in ADS**  
    - Microstrip transmission line (MS)
-  
+  ![S-Parameters](https://github.com/samueloladosu37/Wilkinson-Power-Divider-CST-Simulation/blob/main/Wilkinson%20PD.png)
+![Design](https://github.com/samueloladosu37/Wilkinson-Power-Divider-CST-Simulation/blob/main/PD%20Design.png)
   
    - Taper transitions (T₁, T₂)  
 
