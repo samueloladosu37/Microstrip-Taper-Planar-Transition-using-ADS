@@ -44,10 +44,10 @@ S_calc≡ S(_f_(T_1​×T_2​))
   ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/MIcrostrip%20Simulation.png)
 
    B. Taper transition -S_parameters
-   - ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
+   ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
  
-   C. Direct combined simulation of MS + Taper
-    ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/Taper%20SImulation.png)
+   C. Direct combined simulation of MS + Taper (S_cascaded)
+    ![S-Parameters](https://github.com/samueloladosu37/Microstrip-Taper-Planar-Transition-using-ADS/blob/main/S_combined(Microstrip-Taper%20Transiiton).png)
    
    - Independent extraction of T₁ and T₂  
    - Cascading: compute \(T_{total} = T_1 \times T_2\)  
